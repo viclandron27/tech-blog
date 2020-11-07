@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+    background-color: lightyellow;
+  }
+
+  header {
+     background-color: black;
+     color: lightyellow; 
+  }
+
+  nav {
+      padding-top: 20px;
+  }
+
+  h1 {
+      padding-left: 20px;
+      padding-bottom: 20px;
+  }
+
+  ul {
+      list-style-type: none;
+      padding-right: 40px;
+  }
+
+  li {
+      padding-bottom: 20px;
+  }
+
+  .nav-links {
+      color: lightyellow;
+      text-decoration: none;
+      padding: 20px;
+  }
+
+  .post {
+      border: solid 2px black;
+      padding: 0;
+  }
+
+  .post a {
+      color: lightyellow;
+      text-decoration: none;
+  }
+
+  .title {
+      background-color: black;
+      color: lightyellow;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+  }
+
+  .title span {
+      font-size: 15px;
+  }
+
+  .title a {
+      font-size: 20px;
+  }
+
+  .post-content {
+      padding: 10px;
+  }
