@@ -34,6 +34,10 @@
       padding-bottom: 20px;
   }
 
+  form {
+      margin: 0 40px;
+  }
+
   .nav-links {
       color: lightyellow;
       text-decoration: none;
@@ -56,6 +60,7 @@
       display: flex;
       justify-content: space-between;
       padding: 10px;
+      font-size: 20px;
   }
 
   .title span {
@@ -68,4 +73,34 @@
 
   .post-content {
       padding: 10px;
+  }
+
+  .form {
+      border: 2px solid black;
+  }
+
+  .form-content {
+      padding: 10px 10px 10px 10px;
+  }
+
+  .form-content div {
+      padding-bottom: 10px;
+  }
+
+  .form-content a {
+      text-decoration: none;
+  }
+  
+  .form-content input {
+      display: block;
+      width: 100%;
+      padding: 10px 0;
+  }
+
+  .form-content button {
+      width: 100%;
+      background-color: grey;
+      color: white;
+      font-size: 20px;
+      padding: 10px 0;
   }
