@@ -1,0 +1,52 @@
+<div class="post">
+    <div class="title">
+        <a href="">{{post.title}}</a>
+        <span>Posted by {{post.user.username}} on {{post.created_at}}</span>
+    </div>
+
+    <div class="post-content">
+        {{post.content}}
+    </div>  
+</div>
+
+
+<div class="comments">
+
+  {{#each post.comments}}
+  <section class="comment">
+
+
+    <div class="title">
+      <span>{{user.username}} on {{created_at}}</span>
+    </div>
+
+    <div class="comment-content">
+      {{comment_text}}
+    </div>
+
+  </section>
+  {{/each}}
+
+</div>
+
+{{#if loggedIn}}
+<form class="comment-form">
+    <div class="form">
+        <div class="comment-title"></div>
+        <div class="form-content">
+            <div>
+                <p>Comment</p>
+                <textarea name="comment-body"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+  </div>
+</form>
+{{/if}}
+
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}

@@ -47,11 +47,36 @@
   .post {
       border: solid 2px black;
       padding: 0;
+      margin: 0 40px;
   }
 
   .post a {
       color: lightyellow;
       text-decoration: none;
+  }
+
+  .comments {
+      padding-top: 20px;
+      margin: 0 40px;
+  }
+
+  .comment {
+    border: solid 2px black;
+    padding: 0;
+    margin: 0 40px 10px 40px;
+  }
+
+  .comment-content {
+    padding: 10px;
+  }
+
+  .comment-title {
+    background-color: black;
+    padding-top: 40px;
+  }
+
+  .comment-form {
+      padding-top: 20px;
   }
 
   .title {
@@ -62,6 +87,7 @@
       padding: 10px;
       font-size: 20px;
   }
+
 
   .title span {
       font-size: 15px;
@@ -90,7 +116,7 @@
   .form-content a {
       text-decoration: none;
   }
-  
+
   .form-content input {
       display: block;
       width: 100%;
@@ -103,4 +129,8 @@
       color: white;
       font-size: 20px;
       padding: 10px 0;
+  }
+
+  .form-content textarea {
+      width: 100%;
   }
