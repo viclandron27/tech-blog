@@ -12,7 +12,11 @@
     <header>
         <nav>
             <a href="/" class="nav-links">Home</a>
-            <a href="" class="nav-links">Dashboard</a>
+            {{#if loggedIn}}
+            <a href="/dashboard" class="nav-links">Dashboard</a>
+            {{else}}
+            <a href="/login" class="nav-links">Dashboard</a>
+            {{/if}}
             
             {{#if loggedIn}}
             <a href="" class="nav-links" id="logout">Logout</a>

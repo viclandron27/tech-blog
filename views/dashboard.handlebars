@@ -1,0 +1,20 @@
+{{#if posts.length}}
+<section>
+  <h2>Your Posts</h2>
+  <ol>
+    {{#each posts as |post|}}
+    <li class="user-posts">
+        <div class="title">
+            <a href="/dashboard/edit/{{post.id}}" class="edit-link">{{title}}</a>
+            <span>{{format_date created_at}}</span>
+        </div>
+    </li>
+    {{/each}}
+  </ol>
+</section>
+{{/if}}
+
+
+<form class="new-post">
+    <button formaction="/dashboard/create-post" type="submit">+ New Post</button>
+</form>

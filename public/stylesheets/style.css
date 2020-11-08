@@ -25,6 +25,10 @@
       padding-bottom: 20px;
   }
 
+  h2 {
+      padding-left: 20px;
+  }
+
   ul {
       list-style-type: none;
       padding-right: 40px;
@@ -94,6 +98,8 @@
   }
 
   .title a {
+      text-decoration: none;
+      color: lightyellow;
       font-size: 20px;
   }
 
@@ -133,4 +139,23 @@
 
   .form-content textarea {
       width: 100%;
+  }
+
+  .new-post {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+  }
+
+  .new-post button {
+      background-color: black;
+      color: lightyellow;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 20px;
+  }
+
+  .user-posts {
+      list-style-type: none;
+      margin-right: 40px;
   }
