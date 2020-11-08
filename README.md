@@ -5,11 +5,15 @@ This application allows you to view post uploaded about recent advances in techn
 
 ## Built with
 * Javascript
+* CSS
 * HTML
 * MySQL
 * Sequelize
 * Handlebars
 
+## Website
+https://tech-blog123.herokuapp.com/
+![](screenshot.png)
 
 
 ## Contribution
